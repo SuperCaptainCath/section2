@@ -12,6 +12,8 @@
 		C5EED685219DF8AB0014A46B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5EED683219DF8AB0014A46B /* Main.storyboard */; };
 		C5EED687219DF8AE0014A46B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5EED686219DF8AE0014A46B /* Assets.xcassets */; };
 		C5EED68A219DF8AE0014A46B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5EED688219DF8AE0014A46B /* LaunchScreen.storyboard */; };
+		C5EED692219E02C40014A46B /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EED691219E02C40014A46B /* HomeVC.swift */; };
+		C5EED695219E0A2F0014A46B /* InstaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EED694219E0A2F0014A46B /* InstaModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C5EED686219DF8AE0014A46B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5EED689219DF8AE0014A46B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5EED68B219DF8AE0014A46B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5EED691219E02C40014A46B /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		C5EED694219E0A2F0014A46B /* InstaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		C5EED673219DF8AB0014A46B = {
 			isa = PBXGroup;
 			children = (
+				C5EED693219E0A0E0014A46B /* Model */,
 				C5EED67E219DF8AB0014A46B /* Section2Project */,
 				C5EED67D219DF8AB0014A46B /* Products */,
 			);
@@ -54,6 +59,7 @@
 		C5EED67E219DF8AB0014A46B /* Section2Project */ = {
 			isa = PBXGroup;
 			children = (
+				C5EED691219E02C40014A46B /* HomeVC.swift */,
 				C5EED67F219DF8AB0014A46B /* AppDelegate.swift */,
 				C5EED681219DF8AB0014A46B /* ViewController.swift */,
 				C5EED683219DF8AB0014A46B /* Main.storyboard */,
@@ -62,6 +68,14 @@
 				C5EED68B219DF8AE0014A46B /* Info.plist */,
 			);
 			path = Section2Project;
+			sourceTree = "<group>";
+		};
+		C5EED693219E0A0E0014A46B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5EED694219E0A2F0014A46B /* InstaModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5EED692219E02C40014A46B /* HomeVC.swift in Sources */,
 				C5EED682219DF8AB0014A46B /* ViewController.swift in Sources */,
 				C5EED680219DF8AB0014A46B /* AppDelegate.swift in Sources */,
+				C5EED695219E0A2F0014A46B /* InstaModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
